@@ -3,7 +3,7 @@ const dhive = require('@hiveio/dhive');
 const moment = require('moment');
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 const client = new dhive.Client(['https://api.hive.blog', 'https://api.deathwing.me']);
 
