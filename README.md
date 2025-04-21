@@ -107,7 +107,7 @@ echo "Waiting for the server to start (10 seconds)..."
 sleep 10
 
 # 6. Make a curl request to the API endpoint
-API_URL="http://localhost:3000/find-spanish-posts-last-6-days"
+API_URL="http://localhost:4000/find-spanish-posts-last-6-days"
 echo "Making a curl request to $API_URL..."
 curl "$API_URL"
 
