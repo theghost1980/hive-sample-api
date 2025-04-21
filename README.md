@@ -14,6 +14,7 @@ With the following script bellow you can:
 
 Script
 ----
+```
 #!/bin/bash
 
 # 1. Create a node-api folder
@@ -119,4 +120,4 @@ echo ""
 # pm2 logs "$PM2_PROCESS_NAME"
 
 exit 0
-----
+```
