@@ -1,0 +1,26 @@
+{
+  "name": "hive-sample-api",
+  "version": "1.0.0",
+  "description": "Hive simple API as part of a tutorial in my blog: https://peakd.com/@theghost1980",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theghost1980/hive-sample-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theghost1980/hive-sample-api/issues"
+  },
+  "homepage": "https://github.com/theghost1980/hive-sample-api#readme",
+  "dependencies": {
+    "@hiveio/dhive": "^1.3.2",
+    "express": "^5.1.0",
+    "moment": "^2.30.1"
+  }
+}
